@@ -1,0 +1,38 @@
+{
+  "name": "pintor-comanda-backend",
+  "version": "0.1.0",
+  "description": "Backend para sistema de comandas Centro Colores El Pintor S.A",
+  "main": "./dist/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "dev": "nodemon",
+    "build:watch": "tsc -w",
+    "build": "tsc -p tsconfig.json",
+    "start": "./dist/main.js"
+  },
+  "author": "frdlnk",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.1.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/helmet": "^0.0.48",
+    "@types/jest": "^29.5.14",
+    "@types/morgan": "^1.9.10",
+    "@types/socket.io": "^3.0.1",
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2"
+  }
+}
